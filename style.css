@@ -131,7 +131,7 @@ h2 {
 
 .footer {
   padding: 2rem 1rem 2.5rem 1rem;
-  margin-top: 4rem;
+  margin-top: 3rem;
   background-color: var(--color-footer);
   color: white;
   width: 100%;
@@ -151,6 +151,18 @@ h2 {
 
 .footer-list {
   gap: 2rem;
+}
+
+.contact {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  background-color: var(--color-section);
+  border-radius: var(--section-radius);
+}
+
+.contact h2 {
+  text-align: center;
 }
 
 @media (max-width: 600px) {
